@@ -16,7 +16,7 @@ In the Dartmouth workshop, different participants had different opinions on the 
 * Statisticians approached it from ‘data’ and promoted statistics and probability-based inductive methods - capturing any inherent uncertainty;
 * Others took inspiration from neuro-science and psychology in suggesting to create brain-like programs
 
-![](/images/venn.png) These different approaches to AI broadly align with the three fields that emerged - logic-based (rule-based) AI, machine learning, and deep learning. The first one is also called symbolic AI and the latter two, sub-symbolic AI.
+![](/images/venn.png){:style="float: right;margin-right: 7px;margin-top: 7px;"} These different approaches to AI broadly align with the three fields that emerged - logic-based (rule-based) AI, machine learning, and deep learning. The first one is also called symbolic AI and the latter two, sub-symbolic AI.
 
 Over the last decade or so, deep learning has become predominant - so much so, that AI has become synonymous with deep learning! This is, however, a myth, an inaccuracy perpetuated by popular media. AI is a battery of different approaches and deep leaning is just one such approach. 
 
