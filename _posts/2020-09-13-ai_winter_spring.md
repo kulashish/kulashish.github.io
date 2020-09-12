@@ -33,13 +33,13 @@ But this was short-lived as several limitations of perceptrons surfaced. Minsky 
 
 As a result, sub-symbolic AI fell off the radar. By the mid-1980s, symbolic AI approaches that rely on humans to create rules were also increasingly revealing themselves to be brittle – error-prone and often unable to generalize. It became increasingly evident that, the original goals of AI—computers that could converse with us in natural language, describe what they saw through their camera eyes, learn new concepts after seeing only a few examples—are things that young children can easily do, but, surprisingly, are harder for AI to achieve.
 
-AI winter set in.
+### AI winter set in.
 
-But haven’t we now solved these “hard for AI” problems now?
+### But haven’t we now solved these “hard for AI” problems now?
 
 Last couple of decades has seen a resurgence of the field of AI. If there’s one incident that changed the practical perception of AI was that of deep blue beating the chess champion Garry Kasparov back in the late 1990s! By mid-2000s, AI started becoming more pervasive. Google translate, self-driving cars, virtual assistants like Apple Siri, Amazon Alexa, automated video subtitles, Facebook’s face recognition, Flikr’s automatic labelling of photos, are all well known to us. Other incidents that took the world by storm, more recently, were IBM Watson defeating human champions in the game of Jeopardy and AlphaGo defeating the human Go champion. On the task of automatic speech recognition, AI researchers from Google have achieved a word-error-rate (WER) of 4.7% - at par with human transcriptionists! Image classification error rate has dropped to around 3.1% on the ImageNet dataset!
 
-We are living in an AI spring. What is driving this resurgence?
+### We are living in an AI spring. What is driving this resurgence?
 
 Deep learning! Think of it as multi-layer perceptrons (MLPs) on steroids. Sub-symbolic AI is back with a bang and is spurred by three key developments – 
 1.	development of sophisticated statistical and optimization techniques, notably, the back propagation algorithm – an algorithm for learning large scale multi-layer perceptrons;
