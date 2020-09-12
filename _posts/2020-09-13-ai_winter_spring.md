@@ -12,9 +12,9 @@ But, what is this idea of a fully intelligent machine? And what do we really mea
 Unfortunately, ‘intelligence’, which is the central notion here, itself is somewhat ill-defined. Intelligence is sometimes binary - something is either intelligent or not. Sometimes, it is real-valued (continuous) - something is more intelligent than something else. And sometimes it is multi-dimensional - emotional, verbal, spatial, logical, artistic, social, etc. This lack of clear definition of intelligence carries over to the exact definition of artificial intelligence as well. However, it is broadly acknowledged that the original goal of AI was to build a machine that is no less intelligent than a human - in all aspects of intelligence, including - thinking, cognition, emotions, consciousness and others.
 
 In the Dartmouth workshop, different participants had different opinions on the right way to approach AI.
-•	mathematicians promoted mathematical logic and deductive reasoning as the formalism to approach AI;
-•	Statisticians approached it from ‘data’ and promoted statistics and probability-based inductive methods - capturing any inherent uncertainty;
-•	Others took inspiration from neuro-science and psychology in suggesting to create brain-like programs
+* mathematicians promoted mathematical logic and deductive reasoning as the formalism to approach AI;
+* Statisticians approached it from ‘data’ and promoted statistics and probability-based inductive methods - capturing any inherent uncertainty;
+* Others took inspiration from neuro-science and psychology in suggesting to create brain-like programs
 
 These different approaches to AI broadly align with the three fields that emerged - logic-based (rule-based) AI, machine learning, and deep learning. The first one is also called symbolic AI and the latter two, sub-symbolic AI.
 
@@ -42,9 +42,9 @@ Last couple of decades has seen a resurgence of the field of AI. If there’s on
 ### We are living in an AI spring. What is driving this resurgence?
 
 Deep learning! Think of it as multi-layer perceptrons (MLPs) on steroids. Sub-symbolic AI is back with a bang and is spurred by three key developments – 
-1.	development of sophisticated statistical and optimization techniques, notably, the back propagation algorithm – an algorithm for learning large scale multi-layer perceptrons;
-2.	availability of massive amounts of data and ability to label data through crowd sourcing tools like Amazon’s Mechanical Turk;
-3.	increased computational power made possible due to leveraging GPU-based technology and libraries for training large scale deep learning models.
+1. development of sophisticated statistical and optimization techniques, notably, the back propagation algorithm – an algorithm for learning large scale multi-layer perceptrons;
+1. availability of massive amounts of data and ability to label data through crowd sourcing tools like Amazon’s Mechanical Turk;
+1. increased computational power made possible due to leveraging GPU-based technology and libraries for training large scale deep learning models.
 
 ## So has AI arrived then?
 
@@ -55,19 +55,19 @@ What is required, though, is a careful scientific characterisation of the curren
 Remember, the original goal of AI was to develop an automated system, as much or more intelligent than humans!
 
 What we have managed to achieve though is:
-•	an improved ability to fit functions to data, through availability of massive amounts of data, increased computational power and sophisticated statistical and optimization techniques;
-•	a class of narrow applications that allow for compact representations (functions) and can be efficiently evaluated without requiring reasoning;
-•	a departure from original objectives and measures of success that have reduced the technical challenges while maintaining our ability to capitalise on the obtained results commercially.
+* an improved ability to fit functions to data, through availability of massive amounts of data, increased computational power and sophisticated statistical and optimization techniques;
+* a class of narrow applications that allow for compact representations (functions) and can be efficiently evaluated without requiring reasoning;
+* a departure from original objectives and measures of success that have reduced the technical challenges while maintaining our ability to capitalise on the obtained results commercially.
 
 Bottomline is that we are still far from capturing the human intelligence.
 
 How far you ask? I will not answer that, but, instead, raise these provocations – 
 
-1.	Has AI surpassed humans at object recognition? This conclusion is riddled with several caveats. Firstly, this is on a specific dataset – ImageNet and in fact, these models do not perform as well in recognizing objects in images in the wild. Secondly, this is on the top-5 accuracy metric, a relaxation of the stricter top-1 metric. And thirdly, the reference to “humans”, here, is inaccurate, as the experiment involved a single human – a scientist by the name Andrej Karpathy. So, this claim needs to be taken with a large grain of salt!
-2.	Dog or a Frisbee? When a human says that a photo contains, say, a dog, we assume it’s because the human actually saw a dog in the photo. But if a deep learning model correctly says “dog,” it could be basing this classification on something else in the image—a tennis ball, a Frisbee, a chewed-up shoe—that was often associated with dogs in the training images. These kinds of correlations have often ended up fooling machines!
-3.	Does human brain learn via backpropagation? Humans often learn an open-ended set of categories, require only a few examples, they ask questions, infer abstractions and connections between concepts. Most successful deep learning models, on the other hand, require supervision from large amounts of labeled training data. Supervised learning is not a viable path to general-purpose AI!
-4.	What is the network learning? Models learn what they observe in the data rather than what we want them to learn. For instance, addition of white noise to an image causes an image classification model to misclassify, although, the resulting image “looks” like the original one. Superficial changes to images can trick deep learning models! 
-5.	The problem of bias! Errors due to racial or gender biases have been noted frequently in vision systems powered by deep learning. For instance, in pictures of men standing in the kitchen, an image classification model classifies “men” as “women”. These biased models can often lead to damaging consequences.
+1. Has AI surpassed humans at object recognition? This conclusion is riddled with several caveats. Firstly, this is on a specific dataset – ImageNet and in fact, these models do not perform as well in recognizing objects in images in the wild. Secondly, this is on the top-5 accuracy metric, a relaxation of the stricter top-1 metric. And thirdly, the reference to “humans”, here, is inaccurate, as the experiment involved a single human – a scientist by the name Andrej Karpathy. So, this claim needs to be taken with a large grain of salt!
+1. Dog or a Frisbee? When a human says that a photo contains, say, a dog, we assume it’s because the human actually saw a dog in the photo. But if a deep learning model correctly says “dog,” it could be basing this classification on something else in the image—a tennis ball, a Frisbee, a chewed-up shoe—that was often associated with dogs in the training images. These kinds of correlations have often ended up fooling machines!
+1. Does human brain learn via backpropagation? Humans often learn an open-ended set of categories, require only a few examples, they ask questions, infer abstractions and connections between concepts. Most successful deep learning models, on the other hand, require supervision from large amounts of labeled training data. Supervised learning is not a viable path to general-purpose AI!
+1. What is the network learning? Models learn what they observe in the data rather than what we want them to learn. For instance, addition of white noise to an image causes an image classification model to misclassify, although, the resulting image “looks” like the original one. Superficial changes to images can trick deep learning models! 
+1. The problem of bias! Errors due to racial or gender biases have been noted frequently in vision systems powered by deep learning. For instance, in pictures of men standing in the kitchen, an image classification model classifies “men” as “women”. These biased models can often lead to damaging consequences.
 
 In summary, while much of the optimism surrounding AI is based on the recent successes of deep learning, these programs are still examples of what is called “narrow” or “weak” AI. This is not in any derogatory sense but just an acknowledgement of the fact that these systems can perform only a narrowly defined task. This is in contrast to strong or general AI - the kind that is portrayed in movies - that can do almost everything that a human can do and more! General AI might have been the original goal of the field, but achieving it has certainly turned out to be much harder than expected.
 
