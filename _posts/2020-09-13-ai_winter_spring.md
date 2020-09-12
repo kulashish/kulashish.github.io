@@ -1,11 +1,3 @@
-<style type="text/css">
-    .image-left {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      float: right;
-    }
-    </style>
 # AI Winter or AI Spring – where are we headed?
 
 Any discussion on AI, today, invokes a host of emotions ranging from fear to anxiety to cheer! Here, I will try to paint a realistic picture of AI, covering its historical background, evolution and current state and debunk a few myths along the way.
@@ -24,7 +16,7 @@ In the Dartmouth workshop, different participants had different opinions on the 
 * Statisticians approached it from ‘data’ and promoted statistics and probability-based inductive methods - capturing any inherent uncertainty;
 * Others took inspiration from neuro-science and psychology in suggesting to create brain-like programs
 
-![](/images/venn.png){: .image-left } These different approaches to AI broadly align with the three fields that emerged - logic-based (rule-based) AI, machine learning, and deep learning. The first one is also called symbolic AI and the latter two, sub-symbolic AI.
+![](/images/venn.png) These different approaches to AI broadly align with the three fields that emerged - logic-based (rule-based) AI, machine learning, and deep learning. The first one is also called symbolic AI and the latter two, sub-symbolic AI.
 
 Over the last decade or so, deep learning has become predominant - so much so, that AI has become synonymous with deep learning! This is, however, a myth, an inaccuracy perpetuated by popular media. AI is a battery of different approaches and deep leaning is just one such approach. 
 
