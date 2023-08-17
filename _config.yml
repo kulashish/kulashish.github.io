@@ -21,12 +21,14 @@ use_math: true
 google_analytics:
 
 # Everything below here can be ignored, unless you want to change the theme entirely
-theme: jekyll-theme-midnight
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
+#theme: jekyll-theme-midnight
+#plugins:
+#  - jekyll-feed
+#  - jekyll-gist
+#  - jekyll-octicons
+#  - jekyll-github-metadata
+
+theme: jekyll/minima
 
 titles_from_headings:
   enabled:     true
